@@ -128,3 +128,26 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Node.js
+node_modules/
+
+# Expo
+.expo-logs/
+.expo-updates/
+.expo-temp/
+
+# Build artifacts
+android/app/build/
+android/app/build.gradle
+ios/build/
+ios/Pods/
+
+# Editor config files
+.DS_Store
+*.suo
+*.user
+*.log
+*.tmp
+*.bak
+*.swp
